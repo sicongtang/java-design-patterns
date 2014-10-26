@@ -6,7 +6,7 @@ package com.iluwatar;
  * commands in this example are spells cast by the wizard on the goblin.
  * 
  */
-public class App {
+public class App_Command {
 
 	public static void main(String[] args) {
 		Wizard wizard = new Wizard();

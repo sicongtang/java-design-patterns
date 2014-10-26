@@ -6,7 +6,7 @@ package com.iluwatar;
  * existing instance and provides global access to that instance.
  *
  */
-public class App {
+public class App_Singleton {
 
 	public static void main(String[] args) {
 

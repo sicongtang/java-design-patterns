@@ -1,6 +1,6 @@
 package com.iluwatar;
 
-public class OrcKing implements King {
+public class OrcKing_Ab_Fcty implements King {
 
 	@Override
 	public String toString() {

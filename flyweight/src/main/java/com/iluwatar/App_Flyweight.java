@@ -7,7 +7,7 @@ package com.iluwatar;
  * instances.
  * 
  */
-public class App {
+public class App_Flyweight {
 
 	public static void main(String[] args) {
 		AlchemistShop alchemistShop = new AlchemistShop();

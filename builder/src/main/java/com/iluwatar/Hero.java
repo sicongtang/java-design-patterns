@@ -12,7 +12,7 @@ public class Hero {
 	private final HairType hairType;
 	private final HairColor hairColor;
 	private final Armor armor;
-	private final Weapon weapon;
+	private final Weapon_Fcty weapon;
 
 	public Profession getProfession() {
 		return profession;
@@ -34,7 +34,7 @@ public class Hero {
 		return armor;
 	}
 
-	public Weapon getWeapon() {
+	public Weapon_Fcty getWeapon() {
 		return weapon;
 	}
 
@@ -90,7 +90,7 @@ public class Hero {
 		private HairType hairType;
 		private HairColor hairColor;
 		private Armor armor;
-		private Weapon weapon;
+		private Weapon_Fcty weapon;
 
 		public HeroBuilder(Profession profession, String name) {
 			if (profession == null || name == null) {
@@ -116,7 +116,7 @@ public class Hero {
 			return this;
 		}
 
-		public HeroBuilder withWeapon(Weapon weapon) {
+		public HeroBuilder withWeapon(Weapon_Fcty weapon) {
 			this.weapon = weapon;
 			return this;
 		}

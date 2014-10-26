@@ -10,7 +10,7 @@ import java.util.concurrent.Executors;
  * use double checked locking to add item to inventory. In this method, the
  * thread which gets the lock first adds the item.
  */
-public class App {
+public class App_Double_Checked_Locking {
 
 	public static void main(String[] args) {
 		final Inventory inventory = new Inventory(1000);

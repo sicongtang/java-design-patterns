@@ -1,10 +1,10 @@
 package com.iluwatar;
 
-public class OrcWeapon implements Weapon {
+public class OrcWeapon_Fcty implements Weapon_Fcty {
 
 	private WeaponType weaponType;
 
-	public OrcWeapon(WeaponType weaponType) {
+	public OrcWeapon_Fcty(WeaponType weaponType) {
 		this.weaponType = weaponType;
 	}
 

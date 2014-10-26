@@ -12,7 +12,7 @@ public class OrcKingdomFactory implements KingdomFactory {
 	}
 
 	public King createKing() {
-		return new OrcKing();
+		return new OrcKing_Ab_Fcty();
 	}
 
 	public Army createArmy() {

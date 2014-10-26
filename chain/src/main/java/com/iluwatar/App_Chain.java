@@ -8,11 +8,11 @@ package com.iluwatar;
  * (OrcCommander, OrcOfficer, OrcSoldier) form the handler chain.
  * 
  */
-public class App {
+public class App_Chain {
 
 	public static void main(String[] args) {
 
-		OrcKing king = new OrcKing();
+		OrcKing_Chain king = new OrcKing_Chain();
 		king.makeRequest(new Request(RequestType.DEFEND_CASTLE, "defend castle"));
 		king.makeRequest(new Request(RequestType.TORTURE_PRISONER,
 				"torture prisoner"));

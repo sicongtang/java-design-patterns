@@ -10,7 +10,7 @@ package com.iluwatar;
  * an army.
  * 
  */
-public class App {
+public class App_Ab_Fcty {
 
 	public static void main(String[] args) {
 		createKingdom(new ElfKingdomFactory());

@@ -7,6 +7,6 @@ package com.iluwatar;
  */
 public interface Blacksmith {
 
-	Weapon manufactureWeapon(WeaponType weaponType);
+	Weapon_Fcty manufactureWeapon(WeaponType weaponType);
 
 }

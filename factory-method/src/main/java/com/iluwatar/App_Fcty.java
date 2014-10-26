@@ -7,19 +7,19 @@ package com.iluwatar;
  * ElfBlacksmith) then override the method to produce objects of their liking.
  * 
  */
-public class App {
+public class App_Fcty {
 
 	public static void main(String[] args) {
 		Blacksmith blacksmith;
-		Weapon weapon;
+		Weapon_Fcty weapon;
 
-		blacksmith = new OrcBlacksmith();
+		blacksmith = new OrcBlacksmith_Fcty();
 		weapon = blacksmith.manufactureWeapon(WeaponType.SPEAR);
 		System.out.println(weapon);
 		weapon = blacksmith.manufactureWeapon(WeaponType.AXE);
 		System.out.println(weapon);
 
-		blacksmith = new ElfBlacksmith();
+		blacksmith = new ElfBlacksmith_Fcty();
 		weapon = blacksmith.manufactureWeapon(WeaponType.SHORT_SWORD);
 		System.out.println(weapon);
 		weapon = blacksmith.manufactureWeapon(WeaponType.SPEAR);

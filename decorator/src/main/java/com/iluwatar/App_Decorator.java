@@ -7,7 +7,7 @@ package com.iluwatar;
  * "decorate" calls to the target.
  * 
  */
-public class App {
+public class App_Decorator {
 
 	public static void main(String[] args) {
 

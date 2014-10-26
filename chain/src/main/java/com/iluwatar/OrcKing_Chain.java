@@ -5,11 +5,11 @@ package com.iluwatar;
  * Makes requests that are handled by the chain.
  * 
  */
-public class OrcKing {
+public class OrcKing_Chain {
 
 	RequestHandler chain;
 
-	public OrcKing() {
+	public OrcKing_Chain() {
 		buildChain();
 	}
 

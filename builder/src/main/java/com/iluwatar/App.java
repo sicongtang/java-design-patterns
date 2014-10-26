@@ -20,18 +20,18 @@ public class App {
 	public static void main(String[] args) {
 
 		Hero mage = new HeroBuilder(Profession.MAGE, "Riobard")
-				.withHairColor(HairColor.BLACK).withWeapon(Weapon.DAGGER)
+				.withHairColor(HairColor.BLACK).withWeapon(Weapon_Fcty.DAGGER)
 				.build();
 		System.out.println(mage);
 
 		Hero warrior = new HeroBuilder(Profession.WARRIOR, "Amberjill")
 				.withHairColor(HairColor.BLOND)
 				.withHairType(HairType.LONG_CURLY).withArmor(Armor.CHAIN_MAIL)
-				.withWeapon(Weapon.SWORD).build();
+				.withWeapon(Weapon_Fcty.SWORD).build();
 		System.out.println(warrior);
 
 		Hero thief = new HeroBuilder(Profession.THIEF, "Desmond")
-				.withHairType(HairType.BALD).withWeapon(Weapon.BOW).build();
+				.withHairType(HairType.BALD).withWeapon(Weapon_Fcty.BOW).build();
 		System.out.println(thief);
 
 	}
